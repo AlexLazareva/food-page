@@ -49,14 +49,17 @@ header{
 	background-size: cover;
 }
 .logo{
-	display: block;
-	font-size: 30px;
+	margin-top: 20px;	
+}
+.logo a{
+	color: #fff;
+	font-size: 1.875em;
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 0 8px;
+	padding: 0 5px;
 	border: 3px solid #fff;
-	margin-top: 20px;
+
 }
 .logo span{
 	color: #f8b864;
@@ -66,6 +69,7 @@ header{
 	font-size: 18px;
 	list-style-type: none;
 	float: right;
+	margin-top: 28px;
 }
 .menu_list li{
 	display: inline-block;
@@ -78,15 +82,59 @@ header{
 	padding: 0 20px;
 	cursor: pointer;
 }
-section{
-	color: #440206;
+/*.menu_list ul li a:first-child{
+	border-left: none;
+}*/ /*выясниить, почему не убирается бордер у первого ребенка*/
+.top_banner{
+	text-align: center;
+	margin: 150px auto 50px;
+}
+.top_banner h1{
+	font-family: "Parisienne";
+	font-size: 3em;
+	text-transform: capitalize;
+}
+.top_banner h2{
+	font-family: "RobotoBold", sans-serif;
+	font-size: 3.375em;
+	text-transform: uppercase;	
+}
+.top_banner p{
+	font-size: .9375em;
+	font-weight: 400;
+}
+.btn{
+	margin-top: 35px;
+}
+.btn a{
+	font-size: 1.25em;
+	color: #fff;
+	padding: 8px 20px;
+	border: 2px solid #fff;
+}
+#recipes_1{
+	background-color: #f8b864;	
+}
+.recipe_img{
+	display: block;
+}
+.recipe_img img{
+	width: 100%;
+}
+.recipe_text{
+	padding: 40px;
+}
+.recipe_text h3{
+	font-size: 1.75em;
+}
+.btn-recipes{
+	margin-top: 100px;
+}
+#recipes_2{
+	background-color: #232323;
 }
 .hidden {
 	display: none;
-}
-.carousel img {
-	width: 100%;
-	height: auto;
 }
 .parallax {
 	background-attachment: fixed;
