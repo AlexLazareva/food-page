@@ -119,10 +119,11 @@ header{
 	display: block;
 }
 .recipe_img img{
+	display: block;
 	width: 100%;
 }
 .recipe_text{
-	padding: 40px;
+	padding: 60px;
 }
 .recipe_text h3{
 	font-size: 1.75em;
@@ -133,6 +134,30 @@ header{
 #recipes_2{
 	background-color: #232323;
 }
+#recipes_3{
+	background-color: #fff;
+	color: #000;
+}
+.item{
+	margin: 80px 0 100px;
+	text-align: center;
+}
+.item .fa{
+	font-size: 57px;
+}
+.item h3{
+	font-size: 2em;
+	font-weight: bold;
+}
+.item a{
+	color: #f8b864;
+	font-weight: bold;
+	cursor: pointer;
+}
+.item a:hover{
+	color: #0a0404;
+}
+
 .hidden {
 	display: none;
 }
@@ -140,4 +165,8 @@ header{
 	background-attachment: fixed;
 	background-position: 50% 0;
 	position: relative;
+}
+.no-padding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
