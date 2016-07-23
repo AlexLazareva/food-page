@@ -94,8 +94,7 @@ header{
 	font-size: 3em;
 	text-transform: capitalize;
 }
-.top_banner h2,
-.reservation h2{
+.top_banner h2{
 	font-family: "RobotoBold", sans-serif;
 	font-size: 3.875em;
 	text-transform: uppercase;	
@@ -163,6 +162,7 @@ header{
 }
 .make_reservation{
 	width: 100%;
+	height: auto;
 	text-align: center;
 	background-color: #440206;
 	background: url(../img/reservation.jpg) 0 0 no-repeat;
@@ -173,26 +173,54 @@ header{
 	padding: 80px 0;
 }
 .reservation{
-	padding-top: 60px;
+	padding: 80px 0 60px;
+	line-height: 0.2;
 }
 .reservation h3{
 	font-family: "Parisienne";
-	font-size: 3em;
+	font-size: 80px;
+}
+.reservation h2{
+	font-family: "RobotoBold", sans-serif;
+	font-size: 6em;
+	text-transform: uppercase;	
+}
+.btn_beige{
+	margin-top: 40px;
 }
 .btn_beige a{
-	font-family: "RobotoBold", sans-serif;
-	text-transform: uppercase;
 	background-color: #f8b864;
-	border: none;
-	padding: 10px 40px;
+    border: none;
+    display: inline-block;
+    font-family: "RobotoBold",sans-serif;
+    margin-top: 30px;
+    padding: 25px 40px;
+    text-transform: uppercase;
 }
-.food_price{
+#food_price{
+	display: block;
 	text-align: center;
+	margin: 0 auto;
 }
-.food_item_1{
-	width: 100%;
-	height: 100%;
-	background: #f8b864 url(../img/food_item1.jpg) 0 0 no-repeat;
+.food_item_content{
+	display: inline-block;
+}
+.food_item1{
+	background: #fff url(../img/food_item1.jpg) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.food_item2{
+	background: #fff url(../img/food_item2.jpg) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.food_item3{
+	background: #fff url(../img/food_item3.jpg) 0 0 no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
