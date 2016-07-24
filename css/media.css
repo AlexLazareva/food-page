@@ -2,12 +2,37 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	.top_banner{
+		margin: 100px auto;
+	}
+	.hours_block h3{
+		display: inline;
+	}
+	.open{
+		margin-top: -5px;
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.menu_list{
+		margin-top: -32px;
+	}
+	.top_banner {
+    	margin: 80px auto;
+	}
+	.top_banner h2{
+		font-size: 3em;
+	}
+	.reservation{
+		padding: 50px;
+	}
+	.reservation h3{
+		font-size: 3.75em;
+	}
+	.reservation h2 {
+		font-size: 5em;
+	}	
 }
 
 /* Small Devices, Tablets */
