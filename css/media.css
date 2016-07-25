@@ -32,12 +32,26 @@
 	}
 	.reservation h2 {
 		font-size: 5em;
+	}
+	#contact{
+		text-align: center;
 	}	
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.top_banner{
+		margin: 80px auto 60px auto;
+	}
+	.hours_block h3{
+		font-size: 3em;
+	}
+	.hours_block h4{
+		font-size: 1.75em;
+	}
+	.hours_block span{
+		font-size: 1.5em;
+	}
 }
 
 /* Extra Small Devices, Phones */
