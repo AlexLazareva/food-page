@@ -52,6 +52,17 @@
 	.hours_block span{
 		font-size: 1.5em;
 	}
+	.address_block{
+		padding: 80px 35px 94px 35px;
+	}
+	.address_block p {
+    	font-size: 1.25em;
+    	margin-top: 50px;
+	}
+	.address_block h3{
+		font-size: 2em;
+		margin-bottom: 10px;
+	}
 }
 
 /* Extra Small Devices, Phones */
