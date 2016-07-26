@@ -64,6 +64,11 @@
 		margin-bottom: 10px;
 	}
 }
+@media only screen and (max-width : 660px) {
+	.recipe_text {
+    	padding: 10px 40px;
+	}
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
