@@ -255,13 +255,15 @@ header{
 	margin-top: 115px;
 }
 #contact{
-	overflow: hidden;
+	display: block;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .hours_block{
-	display: block;
 	float: left;
-	width: 50%;
-	line-height: 0;
 	text-transform: uppercase;
 	background-color: #232323;
 	padding: 80px 60px;
@@ -287,10 +289,7 @@ header{
 	margin-top: 46px;
 }
 .address_block{
-	display: block;
 	float: right;
-	width: 50%;
-	line-height: 0;
 	background-color: #f8b864;
 	padding: 80px 60px;
 }
