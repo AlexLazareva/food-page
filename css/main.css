@@ -255,23 +255,15 @@ header{
 	margin-top: 115px;
 }
 #contact{
-	display: table;
+	display: block;
 	width: 100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
-#contact > div,
-#contact > noindex > div {
-    display: table-cell;
-    vertical-align: top;
-    width: auto;
-    box-sizing: border-box;  /* не поддерживается в CSS2 */
-}
 .hours_block{
 	float: left;
-	line-height: 0;
 	text-transform: uppercase;
 	background-color: #232323;
 	padding: 80px 60px;
@@ -298,7 +290,6 @@ header{
 }
 .address_block{
 	float: right;
-	line-height: 0;
 	background-color: #f8b864;
 	padding: 80px 60px;
 }
