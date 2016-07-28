@@ -254,6 +254,11 @@ header{
 	display: inline-block;
 	margin-top: 115px;
 }
+.food_item1 img,
+.food_item2 img,
+.food_item3 img{
+	display: none;
+}
 #contact{
 	display: block;
 	width: 100%;
